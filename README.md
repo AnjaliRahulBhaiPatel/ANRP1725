@@ -1,8 +1,8 @@
-Secure Data Hiding In Images Using Steganography
+🔒🖼️ Secure Data Hiding In Images Using Steganography
 ---------------------------------------------------------
 SteganoCrypt lets you hide secret messages in images using a method called Least Significant Bit (LSB) encoding. It keeps your messages safe by using a passcode for both hiding and retrieving them.
 
-Features
+🌟 Features
 ----------------------------------------------------------
 * Message Encryption: The code allows you to encrypt a secret message using a password.
 
@@ -16,7 +16,7 @@ Features
 
 * Error Handling: The code includes basic error handling for decryption failures.
 
-Requirements
+📋 Requirements
 -------------------------------------------------------------
 * Python: Make sure you have Python installed (preferably version 3.6 or higher).
 
@@ -27,7 +27,7 @@ Requirements
   install it using:
    pip install cryptography
 
-Installation
+🛠️ Installation
 ---------------------------------------------------------------
 1. Install Python: Download and install Python from the official website: python.org
 
@@ -45,4 +45,7 @@ Installation
    python steganography.py
 
 6. Follow Prompts: Enter the message you want to hide and the password when prompted. After 
-   encoding, you can choose to decode the message by providing the correct password.
+   encoding, the program will ask if you want to decode the message from the image. Type yes or 
+   y to proceed.Enter the password you used for encryption when prompted.If the password is 
+   correct, the program will retrieve and display the hidden message. If the password is 
+   incorrect, an error message will be shown.
